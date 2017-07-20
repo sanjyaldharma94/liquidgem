@@ -1,0 +1,42 @@
+/* universal slector*/
+*{
+	font-family: 'Noto Serif', serif;
+padding: 0;
+margin:0;
+outline: none;
+}
+nav{
+	margin-left: 10px;
+	height: 80px;
+	width: 100%;
+	background-color: white;
+}
+nav .logo{
+	float: left;
+	font-size: 18px;
+	margin-top:1%;
+}
+nav .logo strong{
+	font-size: 28px;
+	color: black;
+	font-style: italic;
+}
+nav .navbar{
+text-align: right;
+}
+nav .navbar li{
+	display: inline-block;
+	margin: 2% 3%;
+}
+nav .navbar li a{
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+nav .navbar li a:hover{
+	text-decoration: underline;
+	color: orangered;
+}
+.myself > div{
+	vertical-align: top;
+}
