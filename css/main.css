@@ -3,13 +3,13 @@
 	font-family: 'Noto Serif', serif;
 padding: 0;
 margin:0;
-outline: none;
+background-color:#ebebe0;
 }
 nav{
+	position: fixed;
 	margin-left: 10px;
 	height: 80px;
 	width: 100%;
-	background-color: white;
 }
 nav .logo{
 	float: left;
@@ -37,6 +37,55 @@ nav .navbar li a:hover{
 	text-decoration: underline;
 	color: orangered;
 }
-.myself > div{
-	vertical-align: top;
+header{
+	padding: 85px 10px;
+}
+header h1{
+	text-align: center;
+	word-spacing: 5px;
+}
+span{
+	color: orangered;
+}
+header p{
+	text-align: center;
+	padding: 10px 0;
+	font-style: italic;
+}
+header img{
+	height: 300px;
+	width: 1300px;
+	border-radius: 12px;
+}
+.aboutme{
+	width: 50%;
+	float: left;
+}
+.aboutme h2{
+	font-style: italic;
+	color: cyan;
+	text-align: center;
+}
+.aboutme p{
+	margin: 15px 50px;
+	text-align: justify-left;
+	font-style:italic;
+}
+.mywork h2{
+	font-style: italic;
+	color: crimson;
+	text-align: center;
+}
+.mywork p{
+	margin: 15px 50px;
+	text-align: justify-left;
+	font-style: italic;
+}
+.images{
+	margin-top: 25px;
+
+}
+
+.images  div{
+	display: inline-block;
 }
