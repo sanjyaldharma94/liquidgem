@@ -6,10 +6,15 @@ margin:0;
 background-color:#ebebe0;
 }
 nav{
-	position: fixed;
+	position: static;
 	margin-left: 10px;
 	height: 80px;
 	width: 100%;
+}
+@media (max-width: 800px){
+	*{
+background-color: blue;
+	}
 }
 nav .logo{
 	float: left;
@@ -38,7 +43,7 @@ nav .navbar li a:hover{
 	color: orangered;
 }
 header{
-	padding: 85px 10px;
+	padding: 50px 10px;
 }
 header h1{
 	text-align: center;
@@ -53,8 +58,9 @@ header p{
 	font-style: italic;
 }
 header img{
+	margin-left: 50px;
 	height: 300px;
-	width: 1300px;
+	width: 1200px;
 	border-radius: 12px;
 }
 .aboutme{
@@ -83,9 +89,61 @@ header img{
 }
 .images{
 	margin-top: 25px;
+	text-align: center;
 
 }
 
-.images  div{
+.images div{
+
 	display: inline-block;
+	padding: 40px;
+}
+.thanks{
+	font-family: tehama;
+	font-style: italic;
+	text-align: center;
+	color: crimson;
+}
+.images > div > p{
+	font-size: 12px;
+}
+footer{
+	margin-top: 75px;
+	padding: 50px;
+	height: 200px;
+
+}
+footer .contact h2{
+	text-align: left;
+}
+form{
+	float: left;
+}
+form > input,
+form > textarea{
+     background: transparent;
+     text-align: center;
+	display: block;
+	width: 155%;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid black;
+	color: black;
+}
+form button{
+	cursor: pointer;
+	margin: 35px 50px;
+	border: 1px solid black;
+	padding: 10px;
+	width: 35%;
+	background: transparent;
+	float: right;
+}
+footer .social{
+	float: right;
+	padding: 55px;
+}
+footer .social i{
+	padding: 25px;
+	color: blue;
 }
