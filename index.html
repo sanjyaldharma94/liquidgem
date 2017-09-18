@@ -12,7 +12,7 @@
           <!-- title of the webpage to be displayed on the taskbar-->
              <title>Liquidgem</title>
       <!-- favourite icon-->
-        <link rel="shortcut icon" href="favicon.ico">
+      <!--  <link rel="shortcut icon" href="favicon.ico"> -->
       <!--Font awesome for the various fonts in the webpage-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- animation file-->
@@ -24,17 +24,17 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
       <body>
-        <nav class="animated bounce">
-          <div class="logo">
-            <i class="fa fa-diamond"></i>
-          <strong>liquid gem</strong>
+          <nav class="animated bounce">
+            <div class="logo">
+              <i class="fa fa-diamond"></i>
+                <strong>liquid gem</strong>
            </div>
-            <div class="navbar">
-            <ul>
-              <li><a href="">HOME</a></li>
-              <li><a href="">ABOUT</a></li>
-              <li><a href="">WORK</a></li>
-              <li><a href="">CONTACT</a></li>
+             <div class="navbar">
+              <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+               <li><a href="">WORK</a></li>
+               <li><a href="">CONTACT</a></li>
             </ul>
             </div>
         </nav>
@@ -42,74 +42,118 @@
           <header>
            <h1>Hello there I'm <span>"Dharma r Sanjyal"</span>. Welcome to my design portofolio!</h1>
             <p>-Photographer and Web Developer-</p>
-              <img src="img/sunset.png" alt="sunset">
-              </header>
+              <img class="img-responsive" src="img/sunset.png" alt="sunset">
+             </header>
+
             <div class="myself">
+
               <div class="aboutme">
-              
                 <h2>About me</h2>
                  <p>Hey there, my name is "Dharma r Sanjyal" and i am a photographer and web developer! This is my brand new portofolio. It's super cool because it's completely responsive! That means you can re-size it to whatever size you like and it always looks great. Have a look around and enjoy.</p>
                 </div>
-              <div class="mywork">
-              <h2>my work</h2>
-                <p>Below, you will be able to find lots of my work. I take loads of pretty pictures and i also make websites. If you like what you see then you can contact me below! Maybe you would like to hire me or just have a chat, either way i look forward to hearing from you.</p>
 
+              <div class="mywork">
+              <h2>My work</h2>
+                <p>Below, you will be able to find lots of my work. I take loads of pretty pictures and i also make websites. If you like what you see then you can contact me below! Maybe you would like to hire me or just have a chat, either way i look forward to hearing from you.</p>
                 </div>
-              </div>
+            </div>
    <!-- images added with caption-->
-           <div class="images">
-              <div>
-                 <img src="img/sunset.png" alt=" sunset" height="150px" width="150px">
+            <section id="pictures">
+              <div class ="img">
+                 <div>
+                <a href=""><img src="img/sunset.png" alt=" sunset" height="200px" width="200px"></a>
                    <h3>Skies Of Spain</h3>
                      <p>photography</p>
-               </div>
+                   </div>
+               
                  <div>
-                   <img src="img/bahrain.png" alt="bahrain"  height="150px" width="150px"> 
+                   <a href=""><img src="img/bahrain.png" alt="bahrain"  height="200px" width="200px"></a>
                      <h3>Beautiful Bahrain</h3>
                        <p>photography</p>
                  </div>
+              
               <div>
-                <img src="img/zebra.png" alt="zebra" height="150px" width="150px">
+               <a href=""> <img src="img/zebra.png" alt="zebra" height="200px" width="200px"></a>
                  <h3>Wild Stripes</h3>
                   <p>Photo Manipulation</p>
                </div>
-              <div>
-                <img src="img/lazy.png" alt="fishing" height="150px" width="150px">
+                
+                <div>              
+                <a href=""><img src="img/lazy.png" alt="fishing" height="200px" width="200px"></a>
                   <h3>Lazy Days</h3>
                    <p>Photogarphy</p>
               </div>
-            <div>
-                <img src="img/wires.png" alt="fence" height="150px" width="150px">
+                 <div>
+                <a href=""><img src="img/wires.png" alt="fence" height="200px" width="200px"></a>
                   <h3>Trapped</h3>
                     <p>Photo Manipulation</p>
                     </div>
-            </div>
+
+                  <div>
+                   <a href=""> <img src="img/lion.png" alt="lion" height="200px" width="200px"></a>
+                     <h3>Wildlife</h3>
+                     <p>Photography</p>
+                   </div>
+                   <div>
+                   <a href=""><img src="img/citylife.png" alt="lion" height="200px" width="200px"></a>
+                     <h3>Citylife</h3>
+                     <p>Photography</p>
+                   </div>
+                   <div>
+                    <a href=""><img src="img/design.png" alt="lion" height="200px" width="200px"></a>
+                     <h3>Design</h3>
+                     <p>Photography</p>
+                   </div>
+                   <div>
+                   <a href=""><img src="img/waterlife.png" alt="lion" height="200px" width="200px"></a>
+                     <h3>WaterLife</h3>
+                     <p>Photography</p>
+                   </div>
+                   <div>
+                    <a href=""><img src="img/painting.png" alt="lion" height="200px" width="200px"></a>
+                     <h3>Painting</h3>
+                     <p>Photography</p>
+                   </div>
+                  </div>
+                </section>
+
+
             <div class="thanks">
               <p><b>Thanks for looking at my new website!</b></p>
               </div>
 
 
-      <footer>
+            <footer>
             <div class="contact">
-             <h2>Contact</h2>
-             <form>
-               <input type="text" placeholder="Name">
-               <input type="text" placeholder="Email">
-               <textarea rows="3" placeholder="Message"></textarea>
-               <button>Send</button>
+              <form class="form-group">
+                <h2>Contact</h2>
+               <input type="text" id="username" class="form-control"  placeholder="Full Name" autofocus>
+               <input type="text" id="userdata" class="form-control" placeholder="Email Address" autofocus>
+               <textarea rows="3" id="usercomment" class="form-control"  placeholder="Message" autofocus></textarea>
+               <button type="button" id="btn" onclick="display()">Send</button>
                </form>
-            </div>
-               <div class="social">
-                 <i class="fa fa-twitter fa-2x"></i>
-                  <i class="fa fa-facebook fa-2x"></i>
-                   <i class="fa fa-instagram fa-2x"></i>
-                    <i class="fa fa-google fa-2x"></i>
+            
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-instagram"></i></a>
+                   <a href=""><i class="fa fa-google"></i></a>
                   </div>
+                </div>
            </footer>
 
 
+           <!-- jquery cdn-->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- custom javascript-->
+                <script src="js/main.js"></script>
+                  <!-- lining bootstrap js-->
+                  <script src="js/bootstrap.js"></script>
 
 
-   
+
+
+
+
     </body>
  </html>
