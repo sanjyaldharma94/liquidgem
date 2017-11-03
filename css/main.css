@@ -59,6 +59,11 @@ header img{
 	width: 1200px;
 	border-radius: 12px;
 }
+header img:hover {
+	width: 100%;
+	margin-left: 0;
+	height: 500px;
+}
 /*.myself div{
 	display: inline-block;
 	vertical-align: top;
