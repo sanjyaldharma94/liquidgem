@@ -1,3 +1,10 @@
+
+var overLay = document.getElementById('overlay');
+
+window.addEventListener('load', function(){
+	overLay.style.display = 'none';
+});
+
 function display(){
 var userName = document.getElementById("username").value;
 var userData = document.getElementById("userdata").value;
